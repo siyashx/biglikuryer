@@ -12,6 +12,9 @@ import lombok.NoArgsConstructor;
 public class AdminCurrentBalanceDetDto {
 
     private Long id;
+
+    private Long courierId;
+    private Long shopId;
     private Integer price;
     private String date;
     private String time;

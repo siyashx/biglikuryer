@@ -93,6 +93,9 @@ public class ShopServiceImpl implements ShopServiceInter {
             if (shopDto.getPhoneNumber() != null) {
                 shop.setPhoneNumber(shopDto.getPhoneNumber());
             }
+            if (shopDto.getCard() != null) {
+                shop.setCard(shopDto.getCard());
+            }
             if (shopDto.getOneSignal() != null) {
                 shop.setOneSignal(shopDto.getOneSignal());
             }

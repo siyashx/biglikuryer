@@ -84,12 +84,6 @@ public class AdminServiceImpl implements AdminServiceInter {
             if (adminDto.getPhoneNumber() != null) {
                 admin.setPhoneNumber(adminDto.getPhoneNumber());
             }
-            if (adminDto.getCurrentBalance() != null) {
-                admin.setCurrentBalance(adminDto.getCurrentBalance());
-            }
-            if (adminDto.getYourDeptBalance() != null) {
-                admin.setYourDeptBalance(adminDto.getYourDeptBalance());
-            }
             if (adminDto.getOneSignal() != null) {
                 admin.setOneSignal(adminDto.getOneSignal());
             }

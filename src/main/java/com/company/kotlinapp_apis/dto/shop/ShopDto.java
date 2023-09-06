@@ -35,6 +35,8 @@ public class ShopDto {
 
     private Boolean trash;
 
+    private String card;
+
     private String trashDate;
 
 }

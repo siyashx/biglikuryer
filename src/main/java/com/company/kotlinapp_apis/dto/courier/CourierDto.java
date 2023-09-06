@@ -23,11 +23,11 @@ public class CourierDto {
 
     private String phoneNumber;
 
-    private Integer currentBalance;
-
     private String familyPhoneNumber;
 
     private String oneSignal;//deviceId
+
+    private Boolean star;
 
     private String email;
 

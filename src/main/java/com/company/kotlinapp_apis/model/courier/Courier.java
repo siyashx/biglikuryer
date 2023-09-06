@@ -27,7 +27,7 @@ public class Courier {
 
     private String phoneNumber;
 
-    private Integer currentBalance;
+    private Boolean star;
 
     private String location;
 

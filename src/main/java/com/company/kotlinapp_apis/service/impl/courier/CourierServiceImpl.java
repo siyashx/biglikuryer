@@ -90,8 +90,8 @@ public class CourierServiceImpl implements CourierServiceInter {
             if (courierDto.getPhoneNumber() != null) {
                 courier.setPhoneNumber(courierDto.getPhoneNumber());
             }
-            if (courierDto.getCurrentBalance() != null) {
-                courier.setCurrentBalance(courierDto.getCurrentBalance());
+            if (courier.getStar() != null) {
+                courier.setStar(courierDto.getStar());
             }
             if (courierDto.getLocation() != null) {
                 courier.setLocation(courierDto.getLocation());

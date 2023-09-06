@@ -42,5 +42,7 @@ public class Shop {
 
     private Boolean trash;
 
+    private String card;
+
     private String trashDate;
 }
